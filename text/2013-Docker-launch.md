@@ -9,34 +9,7 @@ The aim of this page📝 is
 <!-- /TOC -->
 
 ### 1. notes
- 
+* redhat present and is a first adopter
+* instrumental in the initial stages of the devops movement
+
 ### 2. links
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
