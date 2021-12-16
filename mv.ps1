@@ -10,6 +10,9 @@ function create-event{
     $new_event_in_software = "${env:MV_FOLDER}\text\${year}-${title}.md"
     New-Item $new_event_in_software
     Get-Content $template | Set-Content $new_event_in_software
+    (Get-Content -Path $new_event_in_software -Raw) -replace "### 1. notes", "$&`n$content`n" | 
+        Set-Content $new_event_in_software
+    
     if(Read-Host "Open Event? (y/Enter)"){Invoke-Item $new_event_in_software}
     
 }
