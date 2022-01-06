@@ -5,10 +5,13 @@
 ![Windows Badge](https://img.shields.io/badge/Windows-0078D6?logo=windows&logoColor=fff&style=flat)
 ![Visual Studio Code Badge](https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?logo=visualstudiocode&logoColor=fff&style=flat)
 
-The aim🎯 of this repo is to facilitate the creation of the historical consciousness of software.
+The aim🎯 of this repo is to facilitate the creation of the historical consciousness of software:
 
 > Magistra Vitae is a Latin expression, used by Cicero in his De Oratore as a personification of history, means "life's teacher". Often paraphrased as Historia est Magistra Vitae, it conveys the idea that the study of the past should serve as a lesson to the future, and was an important pillar of classical, medieval and Renaissance historiography.
 
+— From [Magistra vitae - Wikipedia](https://en.wikipedia.org/wiki/Magistra_vitae)
+
+This project is inspired by [Informal History Of Programming Ideas](https://wiki.c2.com/?InformalHistoryOfProgrammingIdeas). 
 
 ### 1. demo
 
@@ -43,3 +46,4 @@ Set-Alias hmv create-event
 ### 4. sources
 * [Magistra vitae - Wikipedia](https://en.wikipedia.org/wiki/Magistra_vitae)
 * [Zettelkasten For VSCode](https://github.com/pkutaj/z4v)
+* [Informal History Of Programming Ideas](https://wiki.c2.com/?InformalHistoryOfProgrammingIdeas)
