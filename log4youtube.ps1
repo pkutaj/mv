@@ -1,5 +1,5 @@
 function log4youtube($yt_url, $timestamp_list) {
-    $url = ($yt_url -contains "=") ? $($yt_url -split "=")[1]:$($yt_url -split "=")[3]
+    $url = ($yt_url -contains "=") ? $($yt_url -split "/")[1]:$($yt_url -split "/")[3]
     [string]$timestamp_doc
     ForEach ($item in $timestamp_list) {
         if ($item[2] -match "^\d{4}$") {
